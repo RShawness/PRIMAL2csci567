@@ -4,7 +4,14 @@ NOTE!!!: This code base is a modified version of [PRIMAL2](https://github.com/ma
 
 ## Setting up Code
 - cd into the CBS_for_PRIMAL folder.
-- run '''./compile.sh''' to compile the CBS code for imitation learning
+- run ```git clone https://github.com/pybind/pybind11.git``` to install pybind for CBS
+- Then, you can compile CBS by running
+  ```
+  mkdir build
+  cd build
+  cmake ..
+  make -j
+  ```
 - go back to the parent directory to train or test the code
 
 
